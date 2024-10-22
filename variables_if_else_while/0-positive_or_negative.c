@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+gcc - Wall - Werror - Wextra - pedantic - std + gnu89
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
