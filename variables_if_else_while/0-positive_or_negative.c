@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-gcc -o positive_or_negative -Wall -Werror -Wextra -pedantic -std+gnu89 0-positive_or_negative.c
+gcc -o positive_or_negative -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c
 
 /* more headers goes there */
 
