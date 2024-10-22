@@ -12,7 +12,7 @@ int main(void)
   printf("lu\n", sizeof (myFloat));
   print("lu\n", sizeof (myDouble));
   print("lu\n", sizeof (myChar));
-  print ("lu\n", sizeof (myLongInt));
-  print ("lu\n", sizeof (myLongLongInt));
-  return (0);
+  print("lu\n", sizeof (myLongInt));
+  print("lu\n", sizeof (myLongLongInt));
+return (0);
 }
