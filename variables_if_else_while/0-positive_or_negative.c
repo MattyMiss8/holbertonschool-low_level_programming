@@ -2,12 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-
 /**
- * main - is number positive, negative or zero
+ * main - is the number positive, negative or zero
  *
  * Return: Always 0 (Success)
  */
@@ -24,6 +20,5 @@ else if (n == 0)
 printf("%d is zero\n");
 else
 printf("%d is negative\n");
-	/* your code goes there */
 	return (0);
 }
