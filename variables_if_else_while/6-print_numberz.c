@@ -1,10 +1,10 @@
-include <stdio.h>
+#include <stdio.h>
 
-/**                                                                                                                                                                                                                                                                          
- * main - print alphabet in lowercase without q and e                                                                                                                                                                                                                        
- *                                                                                                                                                                                                                                                                           
- * Return: Always 0 (Success)                                                                                                                                                                                                                                                
- *                                                                                                                                                                                                                                                                           
+/**
+ * main - print all single digits in base 10
+ *
+ * Return: Always 0 (Success)
+ *
 */
 
 int main(void)
@@ -13,7 +13,7 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-putchar("%d", i);
+putchar(i + '0');
 }
 putchar('\n');
 return (0);
