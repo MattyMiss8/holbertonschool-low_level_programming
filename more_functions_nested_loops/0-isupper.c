@@ -13,13 +13,11 @@
 int _isupper(int c)
 {
 
-int c;
-
 c = 'A';
-putchar("%c: %d\n", c, _isupper(c));
+printf(
 
 c = 'a';
-putchar("%c: %d\n", c, _isupper(c));
+printf("%c: %d\n", c, _isupper(c));
 
 return (0);
 }
