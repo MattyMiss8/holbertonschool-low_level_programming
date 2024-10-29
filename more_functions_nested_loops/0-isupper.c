@@ -13,11 +13,15 @@
 int _isupper(int c)
 {
 
-c = 'A';
-printf(
+if
+(c >= 'A' && c <= 'Z')
+{
+return (1);
+}
 
-c = 'a';
-printf("%c: %d\n", c, _isupper(c));
-
+else
+{
+return (0);
+}
 return (0);
 }
