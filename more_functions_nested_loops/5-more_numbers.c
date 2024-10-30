@@ -13,7 +13,7 @@
 void more_numbers(void)
 {
 int c;
-for (c = 48; c < 62; c++)
+for (c = 48; c < E; c++)
 {
 _putchar(c);
 }
